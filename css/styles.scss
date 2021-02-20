@@ -475,17 +475,18 @@ body {
 /* 画像の場合 */
 
 .bajji-container {
-  padding: 0 30px;
+  width: 100%;
+  // padding: 0 30px;
   padding-top: 10px;
   max-height: 150px;
   display: flex;
-  justify-content: center;
-  justify-content: space-between;
+  // justify-content: center;
+  // justify-content: space-between;
 
   img {
-    max-width: 23%;
-    max-height: 23%;
-    margin: 5px;
+    max-width: 20%;
+    max-height: 20%;
+    margin: 2px;
   }
 }
 
