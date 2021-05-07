@@ -478,14 +478,14 @@ body {
   width: 100%;
   // padding: 0 30px;
   padding-top: 10px;
-  max-height: 150px;
+  max-height: 200px;
   display: flex;
-  // justify-content: center;
+  justify-content: center;
   // justify-content: space-between;
 
   img {
-    max-width: 20%;
-    max-height: 20%;
+    width: 90px;
+    height: 90px;
     margin: 2px;
   }
 }
@@ -497,7 +497,7 @@ body {
 }
 
 .pro {
-  max-height: 1300px;
+  max-height: 1360px;
   background: rgb(245, 236, 216);
 }
 
@@ -1034,7 +1034,7 @@ body {
 
   img {
     width: 60px;
-    height: auto;
+    height: 60px;
     display: block;
 
     /* margin-left:auto ; */
@@ -2624,6 +2624,28 @@ textarea {
   display: none;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* md screen */
 @media (min-width: 769px) {
   .top-container {
@@ -2847,8 +2869,8 @@ textarea {
 
   .bajji-container {
     img {
-      max-width: 160px;
-      max-height: 160px;
+     width: 150px;
+     height: 150px;
       margin: 15px;
     }
 
@@ -3977,6 +3999,25 @@ textarea {
   }
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* lg screen */
 @media (min-width: 1190px) {
   .top>p {
@@ -4108,6 +4149,14 @@ textarea {
 
   .bajji-container {
     padding-bottom: 0;
+    img {
+      width: 200px;
+      height: 200px;
+    }
+  }
+
+  .ba-p {
+    margin-top: 20px;
   }
 
   .pro-p {

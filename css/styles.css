@@ -447,13 +447,14 @@ body {
 .bajji-container {
   width: 100%;
   padding-top: 10px;
-  max-height: 150px;
+  max-height: 200px;
   display: flex;
+  justify-content: center;
 }
 
 .bajji-container img {
-  max-width: 20%;
-  max-height: 20%;
+  width: 90px;
+  height: 90px;
   margin: 2px;
 }
 
@@ -463,7 +464,7 @@ body {
 }
 
 .pro {
-  max-height: 1300px;
+  max-height: 1360px;
   background: #f5ecd8;
 }
 
@@ -986,7 +987,7 @@ body {
 
 .bene-ch img {
   width: 60px;
-  height: auto;
+  height: 60px;
   display: block;
   /* margin-left:auto ; */
 }
@@ -2728,8 +2729,8 @@ textarea {
     max-height: 220px;
   }
   .bajji-container img {
-    max-width: 160px;
-    max-height: 160px;
+    width: 150px;
+    height: 150px;
     margin: 15px;
   }
   .ba-p {
@@ -3671,6 +3672,13 @@ textarea {
   }
   .bajji-container {
     padding-bottom: 0;
+  }
+  .bajji-container img {
+    width: 200px;
+    height: 200px;
+  }
+  .ba-p {
+    margin-top: 20px;
   }
   .pro-p {
     color: #2b2a2a;
